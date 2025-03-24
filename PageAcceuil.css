@@ -1,0 +1,101 @@
+body{
+    background-color: #ede5e3;
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+h1,h2{
+    text-align: center;
+}
+
+hr{
+    color: lightcoral;
+    border-width: 0.3em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c3e50;
+    padding: 15px 20px;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Bouton_entete1{
+    margin-top: 0em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.colorBouton2{
+    background-color: aqua;
+}
+
+#Bouton_entete1 button, 
+#Bouton_entete2 button {
+    padding: 10px 20px;  
+    font-size: 1.1em;  
+    min-width: fit-content;  
+    height: 50px;  
+    border-radius: 5px;  
+}
+
+.arguments{
+    text-align: left;
+    max-width: 40em;
+    font-size: large; 
+    margin-left: 5em;
+    
+}
+
+.ArgumentsPara{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 2em;
+    column-gap: 5em;
+    width: 80%;
+    margin-left:7%;
+    margin-right: auto;
+    line-height: 1.5;
+    margin-bottom: 2.5em ;
+ 
+}
+
+#VideoPresent
+{
+    display: grid;         
+    place-items: center;  
+    width: 100%;           
+    height: 20em;         
+}
+
+#poster{
+    max-width: 50em;
+    max-height: 40em;
+    margin-left: 20%; ; 
+}
+
+.liste{
+    margin-top: 15%;
+    text-align: left;
+    max-width: 40em;
+    font-size: large; 
+    margin-left: 5em;
+}
+
+#img_deco{
+    display: grid;         
+    place-items: center;  
+    width: 100%;           
+     
+}

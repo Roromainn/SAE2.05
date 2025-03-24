@@ -1,0 +1,50 @@
+body{
+    background-color: #ede5e3;
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+h1,h2{
+    text-align: center;
+}
+
+hr{
+    color: lightcoral;
+    border-width: 0.3em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c3e50;
+    padding: 15px 20px;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Bouton_entete1{
+    margin-top: 0em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.colorBouton2{
+    background-color: aqua;
+}
+
+#Bouton_entete1 button, 
+#Bouton_entete2 button {
+    padding: 10px 20px;  
+    font-size: 1.1em;  
+    min-width: fit-content;  
+    height: 50px;  
+    border-radius: 5px;  
+}
